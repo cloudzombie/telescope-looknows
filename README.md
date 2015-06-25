@@ -1,1 +1,1 @@
-# looknows-theme
+# looknows
