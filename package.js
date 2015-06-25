@@ -2,7 +2,7 @@ Package.describe({
   name: "alisin:theme-looknows",
   summary: "Meteor: Looknows theme package",
   version: "0.1.6",
-  git: ""
+  git: "https://github.com/alisin/Looknows.git"
 });
 
 Package.onUse(function (api) {
