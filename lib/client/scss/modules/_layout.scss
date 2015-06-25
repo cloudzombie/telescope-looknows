@@ -1,0 +1,14 @@
+
+body{
+  background: #f7f8fa;
+}
+
+.content-wrapper{
+  max-width: 1002px;
+  padding: 0 20px;
+  text-align: center;
+  @include large {
+    padding: 0 10px;
+    text-align: left;
+  }
+}

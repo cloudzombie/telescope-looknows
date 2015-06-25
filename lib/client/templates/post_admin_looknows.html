@@ -1,0 +1,7 @@
+<template name="post_admin_looknows">
+  {{#if isAdmin}}
+    <div class="post-meta-item looknows-admin" aria-live="off">
+      △ {{_ "score"}}: {{shortScore}}, {{_ "clicks"}}: {{clickCount}}, {{_ "views"}}: {{viewCount}}
+    </div>
+  {{/if}}
+</template>
