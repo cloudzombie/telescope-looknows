@@ -1,12 +1,15 @@
 .search {
 	.search-field {
     color: #444444;
-	  font-size: 13px;
+	  font-size: 14px;
+    line-height: 1.5;
 	}
   &.empty {
     .search-field {
       background: white;
       color: #b6b6b6;
+      line-height: 1.5;
+      font-size: 14px;
       border: 1px solid #f0f0f0;
     }
   }
