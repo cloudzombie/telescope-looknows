@@ -63,6 +63,8 @@ Package.onUse(function (api) {
       'lib/client/scripts/icons_looknows.js',
       'lib/client/scripts/templates_looknows.js',
 
+      'img/logo.png',
+
       //plugins
       'lib/client/scripts/succinct.js'
 
