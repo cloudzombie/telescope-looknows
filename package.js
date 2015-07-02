@@ -66,7 +66,8 @@ Package.onUse(function (api) {
       'img/logo.png',
 
       //plugins
-      'lib/client/scripts/succinct.js'
+      'lib/client/scripts/succinct.js',
+      'lib/client/scripts/sdk.js'
 
     ], ['client']);
 
