@@ -8,8 +8,7 @@
         @include small {
             height: 60px;
         }
-        color: #777;
-        font-weight: 600;
+        color: #ccc;
         border-bottom: 1px solid #efefef;
         background-color: #fff;
         margin-bottom: 12px;
@@ -21,23 +20,23 @@
         .primary-nav {
             text-transform: capitalize;
             letter-spacing: 0.8px;
-            font-size: 13px;
+            font-size: 15px;
         }
         .secondary-nav {
             text-transform: capitalize;
-            font-size: 13px;
+            font-size: 15px;
             .btn.btn-primary, .btn.submit {
                 background: #C6C6C6;
                 color: #fff;
                 border-radius: 30px;
                 padding: 10px 20px;
                 letter-spacing: 1px;
-                font-size: 13px;
+                font-size: 15px;
                 border: none;
             }
         }
         .menu-item a {
-            font-size: 13px;
+            font-size: 15px;
         }
         .header-submodule:nth-child(2) {
             @include medium {

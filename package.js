@@ -13,7 +13,7 @@ Package.onUse(function (api) {
       // core dependencies
       'telescope:core@0.20.5',
       'telescope:theme-base@0.20.5',
-      'telescope:theme-hubble@0.20.5',
+      'telescope:theme-hubble@0.20.5'
     ]);
 
   api.addFiles([
@@ -57,6 +57,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_upvote_looknows.html',
       'lib/client/templates/post_page_looknows.html',
       'lib/client/templates/nav_looknows.html',
+      'lib/client/templates/posts_list_looknows.html',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',

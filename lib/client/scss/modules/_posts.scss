@@ -220,6 +220,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	}
 }
 
+.posts-footer {
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	.more-button {
+		width: 135px;
+		display: inline-block;
+	}
+	.social-buttons {
+		top: 5px;
+		position: relative;
+		display: inline-block;
+	}
+}
+
 // -------------------------------- post content --------------------------------- //
 .post-heading {
 	margin-bottom: 0px;
