@@ -4,16 +4,29 @@
 	  font-size: 14px;
     line-height: 1.5;
 	}
+  i {
+    position: absolute;
+    padding: 10px;
+    left: 2px;
+    top: -5px;
+    color: #ccc !important;
+    pointer-events: none;
+    &:before {
+      font-size: 14px;
+      color: #ccc !important;
+    }
+  }
   &.empty {
     .search-field {
       background: white;
-      color: #b6b6b6;
+      color: #b6b6b6 !important;
       line-height: 1.5;
       font-size: 14px;
       border: 1px solid #f0f0f0;
     }
   }
   input {
-  	color: #b6b6b6;
+  	color: #b6b6b6 !important;
+    padding-left: 30px !important;
   }
 }

@@ -12,6 +12,12 @@
         border-bottom: 1px solid #efefef;
         background-color: #fff;
         margin-bottom: 12px;
+        .header-submodule {
+            color: #ccc;
+            &:hover {
+                color: #434343;
+            }
+        }
         .header-row {
             max-width: 1002px;
             height: 100px;
@@ -26,17 +32,17 @@
             text-transform: capitalize;
             font-size: 15px;
             .btn.btn-primary, .btn.submit {
-                background: #C6C6C6;
+                background: #1E8DD7;
                 color: #fff;
                 border-radius: 30px;
                 padding: 10px 20px;
                 letter-spacing: 1px;
-                font-size: 15px;
+                font-size: 13px;
                 border: none;
             }
         }
         .menu-item a {
-            font-size: 15px;
+            font-size: 13px;
         }
         .header-submodule:nth-child(2) {
             @include medium {

@@ -58,6 +58,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_page_looknows.html',
       'lib/client/templates/nav_looknows.html',
       'lib/client/templates/posts_list_looknows.html',
+      'lib/client/templates/search_looknows.html',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',
