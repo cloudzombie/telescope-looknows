@@ -8,6 +8,11 @@
         @include small {
             height: 60px;
         }
+        .header-module {
+            .account-link {
+                font-weight: 400;
+            }
+        }
         color: #ccc;
         border-bottom: 1px solid #efefef;
         background-color: #fff;

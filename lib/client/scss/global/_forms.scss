@@ -1,15 +1,35 @@
 input[type="submit"], button, .button, .btn{
   &.btn-primary, &.submit{
     border: 2px solid black;
-    background-color: whitesmoke;
-    color: #808393;
-    border: 1px solid #808393;
-    font-size: 12px;
-    letter-spacing: 1px;
+    background-color: #1E8DD7;
+    color: #fff;
+    border: 1px solid #1E8DD7;
+    font-size: 13px;
+    font-weight: 600;
   }
 }
 
 form textarea:focus {
   border-color: $main;
 }
-
+form input[type="text"],
+form input[type="password"],
+form input[type="number"],
+form input[type="email"],
+form textarea,
+form .login-form input,
+.accounts-dialog input[type="text"],
+.accounts-dialog input[type="password"],
+.accounts-dialog input[type="number"],
+.accounts-dialog input[type="email"],
+.accounts-dialog textarea,
+.accounts-dialog .login-form input {
+	border: 1px solid #f0f0f0;
+	color: #b6b6b6;
+	border-radius: 3px;
+}
+.at-signup-link,
+.at-signin-link,
+.at-title {
+	border-color: #f0f0f0;
+}
