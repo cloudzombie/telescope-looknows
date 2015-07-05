@@ -11,6 +11,10 @@
     top: -5px;
     color: #ccc !important;
     pointer-events: none;
+    @include small {
+      left: 7px;
+      top: 3px;
+    }
     &:before {
       font-size: 14px;
       color: #ccc !important;
@@ -26,6 +30,9 @@
     }
   }
   input {
+    @include small {
+      padding-left: 25px !important;
+    }
   	color: #b6b6b6 !important;
     padding-left: 30px !important;
   }
