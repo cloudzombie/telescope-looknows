@@ -1,5 +1,3 @@
-
-
 // ------------------------------------ Top Nav Layout ------------------------------------ //
 
 .top-nav {
@@ -24,18 +22,18 @@
             }
         }
         .header-row {
-            max-width: 1002px;
+            max-width: 1070px;
             height: 100px;
             margin: 0 auto;
         }
         .primary-nav {
             text-transform: capitalize;
             letter-spacing: 0.8px;
-            font-size: 15px;
+            font-size: 14px;
         }
         .secondary-nav {
             text-transform: capitalize;
-            font-size: 15px;
+            font-size: 14px;
             .btn.btn-primary, .btn.submit {
                 background: #1E8DD7;
                 color: #fff;
@@ -46,8 +44,17 @@
                 border: none;
             }
         }
+        .menu-item {
+            &:hover {
+                background: #036EB5;
+            }
+        }
+        .menu-item:hover a {
+            color: #fff;
+        }
         .menu-item a {
             font-size: 13px;
+            letter-spacing: 0;
         }
         .header-submodule:nth-child(2) {
             @include medium {
