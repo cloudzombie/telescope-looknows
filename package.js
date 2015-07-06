@@ -42,6 +42,7 @@ Package.onUse(function (api) {
       'lib/client/scss/modules/_search.scss',
       'lib/client/scss/modules/_errors.scss',
       'lib/client/scss/modules/_newsletter.scss',
+      'lib/client/scss/modules/_footer.scss',
 
       // partials
       'lib/client/scss/partials/_typography.scss',
@@ -67,6 +68,13 @@ Package.onUse(function (api) {
       'lib/client/scripts/post_title_looknows.js',
       'lib/client/scripts/icons_looknows.js',
       'lib/client/scripts/templates_looknows.js',
+
+      // assets
+      'lib/client/assets/social.css',
+      'lib/client/assets/fonts/social.eot',
+      'lib/client/assets/fonts/social.svg',
+      'lib/client/assets/fonts/social.ttf',
+      'lib/client/assets/fonts/social.woff',
 
       'img/logo.png',
 
