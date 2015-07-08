@@ -63,6 +63,10 @@ Package.onUse(function (api) {
       'lib/client/templates/search_looknows.html',
       'lib/client/templates/newsletter_banner_looknows.html',
       'lib/client/templates/submit_button_looknows.html',
+      'lib/client/templates/post_title_looknows.html',
+      'lib/client/templates/post_thumbnail_looknows.html',
+      'lib/client/templates/post_body_looknows.html',
+      'lib/client/templates/post_body_looknows.js',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',
