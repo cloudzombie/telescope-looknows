@@ -300,14 +300,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 	}
 	a {
 		text-transform: capitalize;
-		&:link,
+		font-weight: 400;
 		&:visited,
 		&:active {
 			font-weight: 400;
 			color: #b6b6b6;
 		}
 		&:hover {
-			color: #b6b6b6;
+			color: #00BCD4;
 			text-decoration: underline;
 		}
 	}
