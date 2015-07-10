@@ -1,5 +1,5 @@
 .newsletter-banner {
-	border: 1px solid #f0f0f0;
+	border: none;
 	background: #fff;
 	.newsletter-button {
 		background: #00BCD4;
@@ -13,10 +13,47 @@
 		color: #B6B6B6;
 	}
 	.newsletter-dismiss {
-		background: #CCC;
+		background: transparent;
+        height: 34px;
+        width: 34px;
+        display: block;
+        overflow: auto;
+        stroke: #ccc;
+        cursor: pointer;
+        -webkit-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        -moz-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        -o-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+        .circle {
+        	opacity: 0.05;
+        }
+        .progress {
+            stroke-dasharray: 1, 120;
+            opacity: 0;
+        }
+        &:hover {
+        	opacity: 1;
+        	-webkit-transition:0.5s;
+            -moz-transition:0.5s;
+            -o-transition:0.5s;
+            transition:0.5s;
+            .progress {
+            	opacity: 1;
+                stroke-dasharray:100,120;
+                -webkit-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+                -moz-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+                -o-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+                transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
+            }
+        }
+        &:active {
+        	.progress {
+        	    stroke-dasharray:120,120;
+            }
+        }
 	}
 	.newsletter-tagline {
-		margin-right: 15px;
-		font-weight: 400;
+		margin-right: 16px;
+		font-weight: 600;
 	}
 }

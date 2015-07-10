@@ -10,6 +10,7 @@
 }
 .post-list-title, .page-title{
     display: none;
+
 }
 
 // ------------------------------------ posts views nav ------------------------------------ //
@@ -131,17 +132,11 @@
 			border-top-left-radius: 4px;
 	    }
 	    &:after {
-background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.2) 62%, rgba(0,0,0,0.4) 100%);
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(0,0,0,0)), color-stop(62%,rgba(0,0,0,0.4)), color-stop(100%,rgba(0,0,0,0.45)));
-background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 62%,rgba(0,0,0,0.4) 100%);
-background: -o-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 62%,rgba(0,0,0,0.4) 100%);
-background: -ms-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 62%,rgba(0,0,0,0.4) 100%);
-background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.2) 62%,rgba(0,0,0,0.4) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 );
+            background: rgba(0,0,0,0.2);
             content: "";
             position: absolute;
             width: 100%;
-            height: 130px;
+            height: 100%;
             left: 0;
             right: 0;
             bottom: 0;
@@ -264,6 +259,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', e
 		color: white;
 		text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
 		font-weight: 700;
+		font-family: 'Roboto Slab', serif;
 		font-size: 18px;
 		@include medium {
 			font-size: 20px;

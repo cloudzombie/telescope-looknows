@@ -2,14 +2,22 @@
   {{#if showBanner}}
     <div class="newsletter-banner grid-module grid banner">
       <form>
-        <h4 class="newsletter-tagline">Receive the best of looknows right in your inbox</h4>
+        <h4 class="newsletter-tagline">Receive the best of looknows right in your inbox:</h4>
         {{#if isNotConnected}}
           <input class="newsletter-email" type="email" placeholder="Your Email">
         {{/if}}
         <button class="button newsletter-button btn btn-primary">{{_ "get_newsletter"}}<span class="button-loader"><img src="/packages/telescope_core/public/img/loading-balls.svg"/></span></button>
       </form>
       <h4 class="newsletter-subscribed">{{_ "thanks_for_subscribing"}}</h4>
-      <a href="#" class="newsletter-dismiss banner-dismiss">×</a>
+      <span class="newsletter-dismiss banner-dismiss">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" enable-background="new 0 0 40 40">
+          <line x1="15" y1="15" x2="25" y2="25" stroke="#ccc" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10"></line>
+          <line x1="25" y1="15" x2="15" y2="25" stroke="#ccc" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10"></line>
+          <circle class="circle" cx="20" cy="20" r="19" opacity="0" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10" fill="none"></circle>
+          <path d="M20 1c10.45 0 19 8.55 19 19s-8.55 19-19 19-19-8.55-19-19 8.55-19 19-19z" class="progress" stroke="#ccc" stroke-width="2.5" stroke-linecap="round" stroke-miterlimit="10" fill="none"></path>
+        </svg>
+      </span>
+
     </div>
   {{/if}}
 </template>
