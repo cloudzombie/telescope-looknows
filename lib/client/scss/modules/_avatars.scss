@@ -1,9 +1,9 @@
 .avatar {
-  width: 32px;
-  height: 32px;
+  width: 31px;
+  height: 31px;
   img {
-    width: 32px;
-    height: 32px;
+    width: 31px;
+    height: 31px;
   }
   @include large {
     position: absolute;
@@ -21,14 +21,13 @@
     bottom: -45px;
   }
   .avatar-initials{
-    line-height: 46px;
+
     background-color: #00BCD4;
     color: #fff;
-    line-height: 32px;
-    font-size: 18px;
+    line-height: 31px;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
     border: none;
-
-    font-weight: 700;
     text-shadow: none;
   }
 }

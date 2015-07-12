@@ -12,7 +12,9 @@
     display: none;
 
 }
-
+.posts-day-heading {
+	color: #c1c1c1;
+}
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
 	background: transparent;
@@ -209,6 +211,7 @@
                 color: #fff;
                 position: relative;
                 left: 1px;
+                font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
                 display: flex;
                 font-size: 13px;
                 flex-direction: column;
