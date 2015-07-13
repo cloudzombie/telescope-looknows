@@ -1,0 +1,34 @@
+@font-face {
+	font-family: 'looknows';
+	src:url('fonts/looknows/looknows.eot?-osio2l');
+	src:url('fonts/looknows/looknows.eot?#iefix-osio2l') format('embedded-opentype'),
+		url('fonts/looknows/looknows.ttf?-osio2l') format('truetype'),
+		url('fonts/looknows/looknows.woff?-osio2l') format('woff'),
+		url('fonts/looknows/looknows.svg?-osio2l#looknows') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="material-icon-"], [class*=" material-icon-"] {
+	font-family: 'looknows';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.material-icon-forum:before {
+	content: "\c600";
+}
+.material-icon-comment:before {
+	content: "\c601";
+}
+.material-icon-sticky:before {
+	content: "\c602";
+}

@@ -5,9 +5,7 @@
 		padding: 11px 10px 11px 0px;
 	}
 }
-.post.sticky {
-	background: #fff;
-}
+
 .post-list-title, .page-title{
     display: none;
 
@@ -15,6 +13,7 @@
 .posts-day-heading {
 	color: #c1c1c1;
 }
+
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
 	background: transparent;
@@ -110,6 +109,31 @@
 		&:after {
 			border-bottom: none;
 		}
+        .top-post-meta {
+	        position: absolute;
+	        top: 5px;
+	        opacity: 0.4;
+	        left: 10px;
+	        display: none;
+	        z-index: 1;
+	        i {
+	        	color: #fff;
+	        	font-size: 22px;
+	        }
+        }
+        &:hover {
+        	.top-post-meta {
+	            position: absolute;
+	            top: 5px;
+	            opacity: 0.7;
+	            left: 10px;
+	            z-index: 1;
+	            i {
+	            	color: #F36031;
+	            	font-size: 22px;
+	            }
+            }
+        }
 	}
 	.post-content {
 		position: relative;
@@ -392,7 +416,12 @@
 
 
 // -------------------------------- other --------------------------------- //
-
+.post.sticky {
+	background: #fff;
+	.top-post-meta {
+	    display: block;
+    }
+}
 .more-button {
 	margin-bottom: 40px;
 	background: #F9F9F9;

@@ -67,6 +67,11 @@ Package.onUse(function (api) {
       'lib/client/templates/post_thumbnail_looknows.html',
       'lib/client/templates/post_body_looknows.html',
       'lib/client/templates/post_body_looknows.js',
+      'lib/client/templates/post_comments_link_looknows.html',
+      'lib/client/templates/post_item_looknows.html',
+      'lib/client/templates/post_item_looknows.js',
+      'lib/client/templates/message_item_looknows.html',
+      'lib/client/templates/message_item_looknows.js',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',
@@ -75,10 +80,17 @@ Package.onUse(function (api) {
 
       // assets
       'lib/client/assets/social.css',
-      'lib/client/assets/fonts/social.eot',
-      'lib/client/assets/fonts/social.svg',
-      'lib/client/assets/fonts/social.ttf',
-      'lib/client/assets/fonts/social.woff',
+      'lib/client/assets/fonts/social/social.eot',
+      'lib/client/assets/fonts/social/social.svg',
+      'lib/client/assets/fonts/social/social.ttf',
+      'lib/client/assets/fonts/social/social.woff',
+
+      'lib/client/assets/looknows.css',
+      'lib/client/assets/fonts/looknows/looknows.eot',
+      'lib/client/assets/fonts/looknows/looknows.svg',
+      'lib/client/assets/fonts/looknows/looknows.ttf',
+      'lib/client/assets/fonts/looknows/looknows.woff',
+
 
       'img/logo.png',
 

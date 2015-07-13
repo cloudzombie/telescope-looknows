@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'social';
-	src:url('fonts/social.eot?szyjmq');
-	src:url('fonts/social.eot?#iefixszyjmq') format('embedded-opentype'),
-		url('fonts/social.ttf?szyjmq') format('truetype'),
-		url('fonts/social.woff?szyjmq') format('woff'),
-		url('fonts/social.svg?szyjmq#social') format('svg');
+	src:url('fonts/social/social.eot?szyjmq');
+	src:url('fonts/social/social.eot?#iefixszyjmq') format('embedded-opentype'),
+		url('fonts/social/social.ttf?szyjmq') format('truetype'),
+		url('fonts/social/social.woff?szyjmq') format('woff'),
+		url('fonts/social/social.svg?szyjmq#social') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
