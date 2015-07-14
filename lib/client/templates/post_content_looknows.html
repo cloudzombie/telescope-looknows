@@ -1,7 +1,9 @@
 <template name="post_content_looknows">
+    {{#if sticky}}
     <div class="top-post-meta">
     <span class="sticky-label"><i class="material-icon-sticky"></i></span>
     </div>
+    {{/if}}
     <div class="post-info">
         <h3 class="post-heading">
         {{> modules "postHeading"}}
@@ -11,6 +13,11 @@
         </div>
     </div>
     <div class="svg-blur">
+    {{#if upvoted}}
+    <div class="svg-bg-overlay gray"></div>
+    {{else}}
+    <div class="svg-bg-overlay red"></div>
+    {{/if}}
     </div>
     {{> modules "postThumbnail"}}
 </template>

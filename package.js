@@ -55,6 +55,7 @@ Package.onUse(function (api) {
       // overrides
       'lib/client/templates/post_admin_looknows.html',
       'lib/client/templates/post_content_looknows.html',
+      'lib/client/templates/post_content_looknows.js',
       'lib/client/templates/post_info_looknows.html',
       'lib/client/templates/post_vote_looknows.html',
       'lib/client/templates/post_page_looknows.html',
