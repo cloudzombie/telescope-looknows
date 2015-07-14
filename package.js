@@ -72,9 +72,11 @@ Package.onUse(function (api) {
       'lib/client/templates/post_item_looknows.js',
       'lib/client/templates/message_item_looknows.html',
       'lib/client/templates/message_item_looknows.js',
+      'lib/client/templates/single_day_nav_looknows.html',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',
+      'lib/client/scripts/blur_looknows.js',
       'lib/client/scripts/icons_looknows.js',
       'lib/client/scripts/templates_looknows.js',
 
@@ -91,10 +93,8 @@ Package.onUse(function (api) {
       'lib/client/assets/fonts/looknows/looknows.ttf',
       'lib/client/assets/fonts/looknows/looknows.woff',
 
-
-      'img/logo.png',
-
       //plugins
+      'lib/client/scripts/background-blur.js',
       'lib/client/scripts/succinct.js',
       'lib/client/scripts/sdk.js'
 

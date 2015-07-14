@@ -55,7 +55,12 @@
 	.newsletter-tagline {
 		margin-right: 10px;
 		font-weight: 600;
-        color: #F36031;
+        color: #999;
         font-size: 15px;
 	}
+    &:hover {
+        .newsletter-tagleine {
+            color: #F36031;
+        }
+    }
 }

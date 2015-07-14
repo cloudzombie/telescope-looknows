@@ -5,23 +5,7 @@
     width: 31px;
     height: 31px;
   }
-  @include large {
-    position: absolute;
-    left: 27px;
-    bottom: -45px;
-  }
-  @include small {
-    position: absolute;
-    left: 27px;
-    bottom: -45px;
-  }
-  @include medium {
-    position: absolute;
-    left: 27px;
-    bottom: -45px;
-  }
   .avatar-initials{
-
     background-color: #00BCD4;
     color: #fff;
     line-height: 31px;
@@ -41,4 +25,20 @@
     font-size: 0px;
   }
 }
-
+.posts .avatar {
+  @include large {
+    position: absolute;
+    left: 27px;
+    bottom: -45px;
+  }
+  @include small {
+    position: absolute;
+    left: 27px;
+    bottom: -45px;
+  }
+  @include medium {
+    position: absolute;
+    left: 27px;
+    bottom: -45px;
+  }
+}
