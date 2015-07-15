@@ -157,16 +157,6 @@
 	    	border-top-right-radius: 4px;
 			border-top-left-radius: 4px;
 	    }
-	    &:after {
-            background: rgba(0,0,0,0.2);
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            left: 0;
-            right: 0;
-            bottom: 0;
-		}
 	}
 	.post-thumbnail-empty {
         min-height: 242px;
@@ -315,7 +305,7 @@
 		z-index: 1;
 		transition: all 0.1s ease-out 0s;
 		position: relative;
-		opacity: 0.4;
+		opacity: 0.3;
 	}
 	@include small {
 	    font-size: 13px !important;
