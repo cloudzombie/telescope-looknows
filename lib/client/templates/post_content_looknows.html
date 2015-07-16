@@ -8,10 +8,16 @@
         <h3 class="post-heading">
         {{> modules "postHeading"}}
       </h3>
+      {{#unless thumbnailUrl}}
+        <div class="post-text">
+        {{{htmlBody}}}
+        </div>
+      {{/unless}} 
         <div class="post-meta">
             {{> modules "postMeta"}}
         </div>
     </div>
+    {{#if thumbnailUrl}}
     <div class="svg-blur">
     {{#if upvoted}}
     <div class="svg-bg-overlay gray"></div>
@@ -19,5 +25,6 @@
     <div class="svg-bg-overlay red"></div>
     {{/if}}
     </div>
+    {{/if}}
     {{> modules "postThumbnail"}}
 </template>

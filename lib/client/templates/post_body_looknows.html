@@ -1,6 +1,6 @@
 <template name="post_body_looknows">
   <div class="post-body markdown" aria-live="polite">
     {{{htmlBody}}}
-    <p>Original Post: <a href="{{postLink}}" target="_blank">{{title}}</a></p>
+    {{#if url}}<p>Original Post: <a href="{{postLink}}" target="_blank">{{title}}</a></p>{{/if}}
   </div>
 </template>
