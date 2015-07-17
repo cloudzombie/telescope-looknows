@@ -49,7 +49,7 @@
 	.item-active {
 		background: transparent;
 		&:after {
-			border-bottom: 2px solid #00BCD4 !important;
+			border-bottom: 2px solid #41B7D8 !important;
 			opacity: 1 !important;
 		}
 		a {
@@ -64,7 +64,7 @@
     		position: relative;
     		background: transparent;
     		&:after {
-    			border-bottom: 2px solid #00BCD4 !important;
+    			border-bottom: 2px solid #41B7D8 !important;
     			opacity: 1 !important;
     			content: " ";
                 display: block;
@@ -112,6 +112,7 @@
         .top-post-meta {
 	        position: absolute;
 	        top: 5px;
+	        z-index: 99999;
 	        opacity: 0.4;
 	        left: 10px;
 	        display: none;
@@ -157,7 +158,7 @@
 	.post-thumbnail-empty {
 		border-bottom: 1px solid #f5f5f5;
 		@include medium {
-            min-height: 434px;
+            min-height: 264px;
         }
         @include small {
             min-height: 221px;
@@ -325,7 +326,7 @@
 			color: #fff;
 		}
 		&:hover {
-			color: #00BCD4;
+			color: #41B7D8;
 			text-decoration: underline;
 		}
 	}
@@ -337,7 +338,7 @@
         text-transform: none;
         bottom: -31px;
         font-weight: 600 !important;
-        color: #00BCD4 !important;
+        color: #41B7D8 !important;
         &:hover {
         	color: #F36031 !important;
         }
@@ -400,15 +401,15 @@
 	}
 	@include small {
 	    left: 57px;
-	    bottom: -85px;
+	    bottom: -87px;
 	}
 	@include large {
 	    left: 44px;
-	    bottom: -85px;
+	    bottom: -87px;
 	}
 	@include medium {
 		left: 44px;
-	    bottom: -85px;
+	    bottom: -87px;
 	}
 }
 
@@ -423,23 +424,39 @@
 
 .post.sticky.thumbnail-empty {
 	.post-title {
-        left: 20px;
+        margin-left: 25px;
         position: relative;
+        @include small {
+        	margin-left: 30px;
+        }
 	}
 }
-
+.post-thumbnail-has-video {
+	&:after {
+		content: "";
+		display: none;
+	}
+}
 .post.thumbnail-empty {
 	.post-heading {
-		margin-top: 0;
+		margin-top: 10px;
+	}
+	.post-vote {
+		@include medium {
+		    top: 240px !important;
+	    }
 	}
 	.post-title {
 		color: #444;
 		left: 0;
 	}
 	.post-text {
-        max-height: 177px;
+        max-height: 167px;
         overflow: hidden;
         margin-top: 15px;
+        @include small {
+        	max-height: 125px;
+        }
     }
 	.post-meta .post-meta-item {
 		color: #c1c1c1;
@@ -454,6 +471,11 @@
 	}
 	.top-post-meta {
 		left: 20px;
+		top: 15px;
+		@include small {
+			left: 10px;
+			top: 13px;
+		}
 		i {
 			color: #F36031;
 		}
@@ -464,7 +486,10 @@
 	}
 	.post-category {
         left: 44px;
-        bottom: -276px;
+        bottom: -267px;
+        @include small {
+        	bottom: -229px;
+        }
     }
     .avatar {
     	left: 3px;
@@ -531,7 +556,7 @@
 	margin-bottom: 20px;
 }
 .prev-link, .next-link {
-	color: #00BCD4 !important;
+	color: #41B7D8 !important;
 	margin: 0 5px;
 	&:hover {
 		color: #F36031 !important;

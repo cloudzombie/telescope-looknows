@@ -58,6 +58,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_content_looknows.js',
       'lib/client/templates/post_info_looknows.html',
       'lib/client/templates/post_vote_looknows.html',
+      'lib/client/templates/post_vote_looknows.js',
       'lib/client/templates/post_page_looknows.html',
       'lib/client/templates/nav_looknows.html',
       'lib/client/templates/posts_list_looknows.html',
@@ -74,6 +75,9 @@ Package.onUse(function (api) {
       'lib/client/templates/message_item_looknows.html',
       'lib/client/templates/message_item_looknows.js',
       'lib/client/templates/single_day_nav_looknows.html',
+      'lib/client/templates/loading_looknows.html',
+      'lib/client/templates/post_share_looknows.html',
+      'lib/client/templates/post_share_looknows.js',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',
