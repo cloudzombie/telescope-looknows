@@ -422,6 +422,7 @@
     }
 }
 
+
 .post.sticky.thumbnail-empty {
 	.post-title {
         margin-left: 25px;
@@ -595,5 +596,10 @@
 	}
 }
 
-
-
+.post-share-buttons {
+	margin-bottom: 15px;
+	a {
+		color: #fff !important;
+		text-align: center;
+	}
+}
