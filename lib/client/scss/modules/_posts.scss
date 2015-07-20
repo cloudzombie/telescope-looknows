@@ -303,13 +303,20 @@
 }
 .post-meta {
 	margin-bottom: 5px;
-	color: #fff;
+	color: #000;
 	font-weight: 400;
+/* 	&:hover {
+		background: #F36031;
+		color: #fff !important;
+		.post-meta-item, .post-meta-item a {
+			opacity: 1;
+			color: #fff !important;
+		}
+	} */
 	.post-meta-item {
 		z-index: 1;
-		transition: all 0.1s ease-out 0s;
 		position: relative;
-		opacity: 0.3;
+		opacity: 0.9;
 	}
 	@include small {
 	    font-size: 13px !important;
@@ -318,15 +325,15 @@
 	a {
 		text-transform: capitalize;
 		font-weight: 400;
-		color: #fff;
+		color: #000;
 		&:link,
 		&:visited,
 		&:active {
 			font-weight: 400;
-			color: #fff;
+			color: #000;
 		}
 		&:hover {
-			color: #41B7D8;
+			color: #000;
 			text-decoration: underline;
 		}
 	}

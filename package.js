@@ -13,11 +13,15 @@ Package.onUse(function (api) {
       // core dependencies
       'telescope:core@0.20.5',
       'telescope:theme-base@0.20.5',
-      'telescope:theme-hubble@0.20.5'
+      'telescope:theme-hubble@0.20.5',
+      'cfs:standard-packages',
+      'yogiben:autoform-file'
     ]);
 
   api.addFiles([
-      'lib/modules_looknows.js'
+      'lib/modules_looknows.js',
+      'lib/posts_looknows.js',
+      'lib/autoform_images.js',
   ], ['client', 'server']);
 
   api.addFiles([
