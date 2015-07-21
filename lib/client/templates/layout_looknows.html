@@ -1,0 +1,24 @@
+<template name="layout_looknows">
+  {{> css}}
+  <div class="outer-wrapper {{currentPage}} {{navLayout}}">
+    {{> mobile_nav}}
+    <div class="inner-wrapper template-{{pageName}}">
+      {{> nav}}
+      <div class="content-wrapper">
+      <div class="left-column">
+        {{> messages}}
+        {{> modules "hero"}}
+        {{> yield "adminMenu"}}
+        {{> yield "postsListTop"}}
+        {{> yield}}
+        {{> footer}}
+      </div>
+      <div class="right-column">
+        {{> modules "looknowsSidebar"}}
+      </div>
+      </div>
+      <div class="overlay hidden"></div>
+    </div>
+    {{{extraCode}}}
+  </div>
+</template>

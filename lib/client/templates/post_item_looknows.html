@@ -1,5 +1,7 @@
 <template name="post_item_looknows">
-  <div class="post {{#if sticky}}sticky{{/if}} {{#unless thumbnailUrl}}thumbnail-empty{{/unless}} {{postClass}}" id="{{_id}}">
+  {{#unless sticky}}
+  <div class="post {{#unless thumbnailUrl}}thumbnail-empty{{/unless}} {{postClass}}" id="{{_id}}">
     {{> modules zone="postComponents" moduleClass="post-module"}}
   </div>
+  {{/unless}}
 </template>

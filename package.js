@@ -19,9 +19,7 @@ Package.onUse(function (api) {
     ]);
 
   api.addFiles([
-      'lib/modules_looknows.js',
-      'lib/posts_looknows.js',
-      'lib/autoform_images.js',
+      'lib/modules_looknows.js'
   ], ['client', 'server']);
 
   api.addFiles([
@@ -57,6 +55,7 @@ Package.onUse(function (api) {
       'lib/client/scss/screen.scss',
 
       // overrides
+      'lib/client/templates/layout_looknows.html',
       'lib/client/templates/post_admin_looknows.html',
       'lib/client/templates/post_content_looknows.html',
       'lib/client/templates/post_content_looknows.js',
@@ -82,6 +81,10 @@ Package.onUse(function (api) {
       'lib/client/templates/loading_looknows.html',
       'lib/client/templates/post_share_looknows.html',
       'lib/client/templates/post_share_looknows.js',
+      'lib/client/templates/sponsor_looknows.html',
+      'lib/client/templates/featured_posts_looknows.html',
+      'lib/client/templates/featured_posts_looknows.js',
+      'lib/client/templates/featured_post_content_looknows.html',
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',

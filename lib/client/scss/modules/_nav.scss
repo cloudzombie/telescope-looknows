@@ -1,6 +1,6 @@
 .top-nav {
     .header {
-        height: 90px;
+        height: 60px;
         @include small {
             height: 60px;
         }
@@ -12,19 +12,19 @@
         .menu-description {
             display: none;
         }
-        color: #ccc;
+        color: rgba(255, 255, 255, 0.5) !important;
         border-bottom: 1px solid #efefef;
-        background-color: #fff;
+        background-color: #1B0521;
         margin-bottom: 12px;
         .header-submodule {
-            color: #ccc;
+            color: rgba(255, 255, 255, 0.5) !important;
             &:hover {
-                color: #434343;
+                color: #fff;
             }
         }
         .header-row {
             max-width: 1070px;
-            height: 90px;
+            height: 60px;
             margin: 0 auto;
             @include small {
                 height: 60px;
@@ -61,7 +61,7 @@
             }
         }
         .menu-item:hover a {
-            color: #fff;
+            color: rgba(255, 255, 255, 0.5);
         }
         .menu-item a {
             font-size: 13px;
@@ -79,7 +79,7 @@
                 font-size: 18px;
             }
             a {
-                color: black;
+                color: #fff;
             }
         }
         .logo-image img {
