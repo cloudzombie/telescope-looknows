@@ -1,5 +1,5 @@
 body{
-    background: #fff;
+    background: #f8f8f8;
     font-size: 15px;
 }
 
@@ -8,17 +8,20 @@ body{
 }
 
 .content-wrapper{
-    max-width: 1160px;
-    padding: 0 20px;
+    max-width: none;
+    padding: 0;
     text-align: center;
     @include large {
+      max-width: 1;
       padding: 0 10px;
       text-align: left;
     }
 }
 
-.grid-module, .at-form {
-
+.left-column .grid-module {
+    margin-right: 60px;
+    margin-left: auto;
+    width: 660px;
 }
 .grid-block, .comment-content, .comment-new, .error, .at-error { 
     padding: 15px 10px;
@@ -44,13 +47,15 @@ body{
   }
 }
 .left-column {
+    background: #fff;
+    border-right: 1px solid #e9e9e9;
   @include large {
-    width: 66.66666667%;
+    width: 60%;
   }
 }
 .right-column {
   @include large {
-    width: 33.33333333%;
+    width: 380px;
   }
   .post {
     box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.1), 1px 0px 0px rgba(0, 0, 0, 0.1);
@@ -62,9 +67,13 @@ body{
   .post-thumbnail {
     margin: 0 0 0 10px;
     float: right;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
   }
   .post-thumbnail-link {
-    width: 120px;
+    width: 110px;
+    height: auto;
   }
   .post-thumbnail-image {
     border-radius: 0px;
@@ -76,14 +85,14 @@ body{
     font-weight: 700;
   }
   .post-meta-item {
-    font-size: 12px;
+    font-size: 13px;
   }
   .post-author {
     display: none;
   }
   .post-info {
     flex-grow: 1;
-    margin-left: 12px;
+    margin-left: 13px;
   }
   .post-module {
     flex-shrink: 1;
@@ -99,7 +108,7 @@ body{
     align-items: center;
   }
   .post-title {
-    color: #000 !important;
+    color: #21242b;
   }
   .post-text {
     display: none;

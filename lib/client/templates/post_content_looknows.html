@@ -1,4 +1,5 @@
 <template name="post_content_looknows">
+{{> modules "postThumbnail"}}
     <div class="post-info">
         <h3 class="post-heading">
         {{> modules "postHeading"}}
@@ -12,14 +13,4 @@
             {{> modules "postMeta"}}
         </div>
     </div>
-    {{#if thumbnailUrl}}
-    <div class="svg-blur">
-    {{#if upvoted}}
-    <div class="svg-bg-overlay gray"></div>
-    {{else}}
-    <div class="svg-bg-overlay red"></div>
-    {{/if}}
-    </div>
-    {{/if}}
-    {{> modules "postThumbnail"}}
 </template>

@@ -25,20 +25,3 @@
     font-size: 0px;
   }
 }
-.posts .avatar {
-  @include large {
-    position: absolute;
-    left: 27px;
-    bottom: -45px;
-  }
-  @include small {
-    position: absolute;
-    left: 27px;
-    bottom: -45px;
-  }
-  @include medium {
-    position: absolute;
-    left: 27px;
-    bottom: -45px;
-  }
-}
