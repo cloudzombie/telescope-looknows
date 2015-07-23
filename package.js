@@ -13,9 +13,7 @@ Package.onUse(function (api) {
       // core dependencies
       'telescope:core@0.20.5',
       'telescope:theme-base@0.20.5',
-      'telescope:theme-hubble@0.20.5',
-      'cfs:standard-packages',
-      'yogiben:autoform-file'
+      'telescope:theme-hubble@0.20.5'
     ]);
 
   api.addFiles([
@@ -88,7 +86,6 @@ Package.onUse(function (api) {
 
       // customizations
       'lib/client/scripts/post_title_looknows.js',
-      //'lib/client/scripts/blur_looknows.js',
       'lib/client/scripts/icons_looknows.js',
       'lib/client/scripts/templates_looknows.js',
 
@@ -106,9 +103,7 @@ Package.onUse(function (api) {
       'lib/client/assets/fonts/looknows/looknows.woff',
 
       //plugins
-      //'lib/client/scripts/background-blur.js',
       'lib/client/scripts/succinct.js',
-      //'lib/client/scripts/sdk.js'
 
     ], ['client']);
 

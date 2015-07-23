@@ -9,12 +9,16 @@
         {{> messages}}
         {{> modules "hero"}}
         {{> yield "adminMenu"}}
-        {{> yield "postsListTop"}}
-        {{> yield}}
-        {{> footer}}
+        <div class="content">
+            {{> yield "postsListTop"}}
+            {{> yield}}
+            {{> footer}}
+        </div>
       </div>
       <div class="right-column">
+        <div class="sidebar">
         {{> modules "looknowsSidebar"}}
+        </div>
       </div>
       </div>
       <div class="overlay hidden"></div>

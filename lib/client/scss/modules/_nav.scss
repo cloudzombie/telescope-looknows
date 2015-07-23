@@ -1,6 +1,6 @@
 .top-nav {
     .header {
-        height: 60px;
+        height: 80px;
         @include small {
             height: 60px;
         }
@@ -23,8 +23,8 @@
             }
         }
         .header-row {
-            max-width: 1120px;
-            height: 60px;
+            max-width: 1080px;
+            height: 80px;
             margin: 0 auto;
             @include small {
                 height: 60px;
