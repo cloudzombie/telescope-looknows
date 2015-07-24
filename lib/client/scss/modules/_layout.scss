@@ -1,6 +1,6 @@
 body{
     background: #f8f8f8;
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .markdown a:link, .markdown a:visited, .markdown a:active {
@@ -8,24 +8,22 @@ body{
 }
 
 .content-wrapper{
-    max-width: 1080px;
+    max-width: 1120px;
     padding: 0;
 }
 
-.left-column .content {
+.left-column {
     @include large {
         &:before {
             content: "";
             position: absolute;
             background: #FFF;
-            left: 0;
+            left: -719px;
             top: 0px;
             width: 100%;
             display: block;
             height: 100%;
         }
-        margin-right: 60px;
-        margin-left: auto;
         width: 660px;
     }
 }
@@ -65,7 +63,6 @@ body{
     .sidebar {
         max-width: 360px;
         .post {
-          box-shadow: -1px 0px 0px rgba(0, 0, 0, 0.1), 1px 0px 0px rgba(0, 0, 0, 0.1);
           border-radius: 0px;
         }
         .post-meta {
