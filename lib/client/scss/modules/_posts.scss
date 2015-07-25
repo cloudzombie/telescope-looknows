@@ -244,16 +244,15 @@
 		color: #21242b;
 		display: block;
 		font-weight: 700;
-		
-		font-size: 18px;
 		margin-top: 5px;
 		@include medium {
-			font-size: 22px;
+			font-size: 18px;
 		}
 		@include large {
 			font-size: 22px;
 		}
 		@include medium-large {
+			font-size: 18px;
 			font-weight: 700;
 		}
 		&:visited {
