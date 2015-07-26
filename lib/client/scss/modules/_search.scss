@@ -28,7 +28,7 @@
       font-size: 14px;
       border: 1px solid #B6B6B6;
       border: 0;
-      border-radius: 4px;
+      border-radius: 4px !important;
     }
   }
   input {
@@ -36,7 +36,7 @@
       padding-left: 25px !important;
     }
   	color: #b6b6b6 !important;
-    border-radius: 4px;
+    border-radius: 4px !important;
     padding-left: 30px !important;
   }
 }
