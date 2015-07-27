@@ -47,9 +47,9 @@
             text-transform: capitalize;
             font-size: 14px;
             .btn.btn-primary, .btn.submit {
-                background: #41B7D8;
+                background: #d84b1e;
                 color: #fff;
-                border-radius: 30px;
+                border-radius: 4px;
                 padding: 10px 20px;
                 font-size: 13px;
                 border: none;
@@ -57,7 +57,7 @@
         }
         .menu-item {
             &:hover {
-                background: #41B7D8 !important;
+                background: #d84b1e !important;
             }
         }
         .menu-item:hover a {
