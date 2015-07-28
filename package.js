@@ -25,6 +25,9 @@ Package.onUse(function (api) {
       // add-ons
       'lib/client/main.html',
 
+      // images
+      'lib/client/assets/img/logo.png',
+
       // globals
       'lib/client/scss/global/_forms.scss',
       'lib/client/scss/global/_links.scss',
@@ -103,7 +106,8 @@ Package.onUse(function (api) {
       'lib/client/assets/fonts/looknows/looknows.woff',
 
       //plugins
-      'lib/client/scripts/succinct.js',
+      'lib/client/scripts/succinct.js'
+
 
     ], ['client']);
 

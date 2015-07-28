@@ -76,10 +76,17 @@
             letter-spacing: 8px;
             text-transform: uppercase;
             @include medium-large {
-                font-size: 18px;
             }
             a {
                 color: #000;
+                font-size: 0;
+                background: url('http://static.boredpanda.com/blog/wp-content/themes/boredpanda/images/panda-logo-main.png');
+                margin: 0 auto;
+                background-size: 90%;
+                background-repeat: no-repeat;
+                height: 40px;
+                display: block;
+                width: 160px;
             }
         }
         .logo-image img {

@@ -3,6 +3,9 @@
     color: #444;
 	  font-size: 13px;
     line-height: 1.5;
+    padding: 6px 12px;
+    max-width: 160px;
+    border: 1px solid #E9F1F1;
 	}
   i {
     position: absolute;
@@ -16,18 +19,18 @@
       top: 3px;
     }
     &:before {
-      font-size: 13px;
-      color: #ccc !important;
+      font-size: 15px;
+      color: rgba(0,0,0,0.2) !important;
     }
   }
   &.empty {
     .search-field {
-      background: white;
-      color: #b6b6b6 !important;
+      background: #F6F8F9;
+      color: #6C6C6C !important;
       line-height: 1.5;
-      font-size: 14px;
-      border: 1px solid #B6B6B6;
-      border: 0;
+      font-weight: 600;
+      font-size: 12px;
+      border: 1px solid #E9F1F1;
       border-radius: 4px !important;
     }
   }
@@ -35,6 +38,7 @@
     @include small {
       padding-left: 25px !important;
     }
+    border: 1px solid #E9F1F1;
   	color: #b6b6b6 !important;
     border-radius: 4px !important;
     padding-left: 30px !important;
