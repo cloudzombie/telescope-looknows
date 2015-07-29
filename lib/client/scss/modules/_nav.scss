@@ -1,7 +1,9 @@
 .top-nav {
     .header {
         height: 80px;
+        padding: 0;
         @include small {
+            padding: 0;
             height: 60px;
         }
         .header-module {
@@ -23,9 +25,11 @@
             }
         }
         .header-row {
-            max-width: 1120px;
+            max-width: 1320px;
             height: 80px;
             margin: 0 auto;
+            padding-right: 15px;
+            padding-left: 15px;
             @include small {
                 height: 60px;
             }
@@ -84,9 +88,9 @@
                 margin: 0 auto;
                 background-size: 90%;
                 background-repeat: no-repeat;
-                height: 40px;
+                height: 41px;
                 display: block;
-                width: 160px;
+                width: 213px;
             }
         }
         .logo-image img {

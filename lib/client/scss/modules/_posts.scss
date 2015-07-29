@@ -84,10 +84,20 @@
 // ------------------------------ posts-grid layout ------------------------------ //
 
 .posts-grid {
+	.post-thumbnail a {
+		&:before {
+		    content: "";
+            position: absolute;
+            width: 100%;
+            height: 229px;
+            z-index: 1;
+            border: 1px solid rgba(0,0,0,0.2);
+	    }
+	}
 	.post {
 		padding-bottom: 0;
 		@include large {
-			width: 47.9%;
+			width: 30%;
 		}
 		@include small {
 			max-width: 280px;
@@ -103,10 +113,7 @@
         box-shadow: none;
 		margin-right: 4%;
 		&:nth-of-type(3n) {
-			margin-right: 4%;
-		}
-		&:nth-of-type(2n) {
-			margin-right: 0;
+			margin-right: 0%;
 		}
 		&:after {
 			border-bottom: none;
@@ -117,7 +124,7 @@
 		text-align: left;
 	}
 	.post-info {
-		padding: 10px 10px;
+		padding: 5px 0 10px;
 		width: 100%;
 		bottom: 0;
 		z-index: 2;
@@ -241,7 +248,7 @@
 		margin-top: 5px;
 	}
 	.post-title {
-		color: #21242b;
+		color: #222254;
 		display: block;
 		font-weight: 700;
 		margin-top: 5px;
@@ -256,7 +263,7 @@
 			font-weight: 700;
 		}
 		&:visited {
-			color: #444;
+			color: #222254;
 		}
 	}
 }
@@ -471,7 +478,7 @@
 	    }
 	}
 	.post-title {
-		color: #444;
+		color: #222254;
 		left: 0;
 	}
 	.post-text {
@@ -512,13 +519,13 @@
     overflow: hidden;
     position: relative;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 12px;
     &:after {
         position: absolute;
         top: 45%;
         width: 99%;
         margin-left: 5px;
-        border-top: 2px solid #d84b1e;
+        border-top: 2px solid #DB4214;
         content: "";
     }
 }
