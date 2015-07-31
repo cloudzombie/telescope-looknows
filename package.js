@@ -17,7 +17,8 @@ Package.onUse(function (api) {
     ]);
 
   api.addFiles([
-      'lib/modules_looknows.js'
+      'lib/modules_looknows.js',
+      'lib/helpers_looknows.js'
   ], ['client', 'server']);
 
   api.addFiles([
@@ -66,6 +67,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_page_looknows.html',
       'lib/client/templates/nav_looknows.html',
       'lib/client/templates/posts_list_looknows.html',
+      'lib/client/templates/posts_list_looknows.js',
       'lib/client/templates/search_looknows.html',
       'lib/client/templates/newsletter_banner_looknows.html',
       'lib/client/templates/submit_button_looknows.html',

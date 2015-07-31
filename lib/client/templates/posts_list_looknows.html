@@ -1,13 +1,13 @@
-<template name="postsLoadMore_looknows">
-  {{#if postsReady}}
-    {{#if hasPosts}}
-      {{#if hasMorePosts}}
-<a class="more-button" href="#"><span>{{_ "load_more"}}</span></a>
-      {{/if}}
-    {{else}}
-      <div class="no-posts">{{_ "sorry_we_couldnt_find_any_posts"}}</div>
-    {{/if}}
-  {{else}}
-    <div class="loading-bar"></div>
-  {{/if}}
+<template name="posts_list_looknows">
+  <div class="posts-wrapper grid grid-module">
+    {{> postsListIncoming data=incoming}}
+    <div class="posts list {{postsLayout}}" aria-live="polite">
+      {{#each PostsList}}
+        {{> before_post_item}}
+        {{> post_item}}
+        {{> after_post_item}}
+      {{/each}}
+    </div>
+    {{> postsLoadMore}}
+  </div>
 </template>
