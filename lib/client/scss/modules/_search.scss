@@ -1,46 +1,45 @@
 .search {
 	.search-field {
-    color: #444;
-	  font-size: 13px;
+    color: #5c5c5c;
+    font-family: "Droid Serif", Georgia, Serif;
+	  font-size: 16px;
     line-height: 1.5;
+    border-left: 1px solid #ececec;
     padding: 6px 12px;
-    max-width: 160px;
-    border: 1px solid #E9F1F1;
+    max-width: 220px !important;
 	}
   i {
     position: absolute;
-    padding: 10px;
-    left: 2px;
-    top: -5px;
-    color: #ccc !important;
+    padding: 0;
+    right: 0px;
+    top: 6px;
+    color: #5c5c5c !important;
     pointer-events: none;
     @include small {
       left: 7px;
       top: 3px;
     }
     &:before {
-      font-size: 15px;
-      color: #E9F1F1 !important;
+      font-size: 16px;
+      color: #5c5c5c !important;
     }
   }
   &.empty {
     .search-field {
-      background: #F6F8F9;
-      color: #6C6C6C !important;
+      background: #fff;
+      color: #5c5c5c !important;
       line-height: 1.5;
-      font-weight: 600;
-      font-size: 12px;
-      border: 1px solid #E9F1F1;
-      border-radius: 4px !important;
+      font-weight: 400;
+      font-size: 16px;
+      border-radius: 0 !important;
     }
   }
   input {
     @include small {
-      padding-left: 25px !important;
+      padding-left: 15px !important;
     }
-    border: 1px solid #E9F1F1;
   	color: #b6b6b6 !important;
-    border-radius: 4px !important;
-    padding-left: 30px !important;
+    border-radius: 0 !important;
+    padding-left: 20px !important;
   }
 }

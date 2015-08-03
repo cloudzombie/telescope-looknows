@@ -11,7 +11,7 @@
 
 }
 .posts-day-heading {
-	color: #c1c1c1;
+	color: #7f898a;
 }
 
 // ------------------------------------ posts views nav ------------------------------------ //
@@ -40,7 +40,7 @@
 		a {
 			font-size: 16px;
 			font-weight: 400 !important;
-			color: #c1c1c1;
+			color: #7f898a;
 			&:hover {
 				color: #434343;
 			}
@@ -84,20 +84,9 @@
 // ------------------------------ posts-grid layout ------------------------------ //
 
 .posts-grid {
-	.post-thumbnail a {
-		&:before {
-		    content: "";
-            position: absolute;
-            width: 100%;
-            height: 229px;
-            z-index: 1;
-            border: 1px solid rgba(0,0,0,0.2);
-	    }
-	}
 	.post {
-		padding-bottom: 0;
 		@include large {
-			width: 22%;
+			width: 25%;
 		}
 		@include small {
 			max-width: 280px;
@@ -108,16 +97,16 @@
 			width: 100%;
 		}
 		border-radius: 0;
-		margin: 0 0 25px 0;
-		border-bottom: 1px solid #e9e9e9;
-        box-shadow: none;
-		margin-right: 3%;
+		margin: 0;
+		padding: 0;
+		border: 0;
+        box-shadow:   1px 0 0 0 #ececec, 0 1px 0 0 #ececec, 1px 1px 0 0 #ececec, 1px 0 0 0 #ececec inset, 0 1px 0 0 #ececec inset;
 		&:nth-of-type(3n) {
-			margin-right: 3%;
+			margin-right: 0;
 		}
-		&:nth-child(6),&:nth-child(12),&:nth-child(19),&:nth-child(27) {
+		&:nth-child(3),&:nth-child(8),&:nth-child(13),&:nth-child(18) {
 		    @include large {
-		    	width: 47%;
+		    	width: 50%;
 		    	.post-thumbnail {
 		    		height: 229px;
 		    		overflow: hidden;
@@ -133,7 +122,7 @@
 		text-align: left;
 	}
 	.post-info {
-		padding: 5px 0 10px;
+		padding: 5px 10px 10px;
 		width: 100%;
 		bottom: 0;
 		z-index: 2;
@@ -150,6 +139,7 @@
     }
 	.post-vote {
 		z-index: 3;
+		display: none;
 		@include medium {
 		    top: 408px !important;
             bottom: auto !important;
@@ -257,8 +247,9 @@
 		margin-top: 5px;
 	}
 	.post-title {
-		color: #222254;
+		color: #3a4e4f;
 		display: block;
+		font-family: 'Droid Serif', serif;
 		font-weight: 700;
 		margin-top: 5px;
 		@include medium {
@@ -272,14 +263,14 @@
 			font-weight: 700;
 		}
 		&:visited {
-			color: #222254;
+			color: #3a4e4f;
 		}
 	}
 }
 
 .post-meta {
 	margin-bottom: 5px;
-	color: #C1C1C1;
+	color: #7f898a;
 	font-weight: 400;
 	.post-meta-item {
 		z-index: 1;
@@ -292,15 +283,15 @@
 	a {
 		text-transform: capitalize;
 		font-weight: 400;
-		color: #C1C1C1;
+		color: #7f898a;
 		&:link,
 		&:visited,
 		&:active {
 			font-weight: 400;
-			color: #C1C1C1;
+			color: #7f898a;
 		}
 		&:hover {
-			color: #C1C1C1;
+			color: #7f898a;
 			text-decoration: underline;
 		}
 	}
@@ -349,18 +340,17 @@
 
 // -------------------------------- post tags --------------------------------- //
 .post-category {
-	font-size: 11px;
+	font-size: 14px;
 	text-transform: uppercase;
-	padding: 4px 6px 2px;
-	font-weight: 400 !important;
-	border-radius: 3px;
-	color: #fff !important;
-	background: #F44A16;
+	font-weight: 600 !important;
+	color: #5e6464 !important;
+	padding: 0;
+	background: #fff;
 	a {
 		color: #fff;
 	}
 	&:hover {
-		color: #fff;
+		color: #5e6464;
 	}
 	@include small {
 	}
@@ -374,10 +364,9 @@
 // -------------------------------- other --------------------------------- //
 .right-column {
 	.sticky {
-		background: #f8f8f8;
+		background: #fff;
 	}
 	.post {
-		background: #f8f8f8;
 		@include large {
 			width: 100%;
 		}
@@ -390,7 +379,7 @@
 		padding: 0;
 		margin-bottom: 20px;
 		box-shadow: 0;
-		border-bottom: 1px solid #ddd;
+		border: 0;
         box-shadow: none;
 		&:nth-of-type(3n) {
 			margin-right: 0;
@@ -487,7 +476,6 @@
 	    }
 	}
 	.post-title {
-		color: #222254;
 		left: 0;
 	}
 	.post-text {
@@ -499,10 +487,9 @@
         }
     }
 	.post-meta .post-meta-item {
-		color: #c1c1c1;
-		opacity: 1;
+		color: #7f898a;
 		a {
-			color: #c1c1c1;
+			color: #7f898a;
 		}
 	}
 	.post-info {
@@ -528,15 +515,9 @@
     overflow: hidden;
     position: relative;
     font-weight: 700;
-    font-size: 12px;
-    &:after {
-        position: absolute;
-        top: 45%;
-        width: 99%;
-        margin-left: 5px;
-        border-top: 2px solid #DB4214;
-        content: "";
-    }
+    color: #2d3b3e;
+    font-family: "Droid Serif", Georgia, Serif;
+    font-size: 18px;
 }
 
 .svg-blur {
@@ -590,7 +571,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c1637', end
 	margin: 20px 0px 20px;
 }
 .single-day {
-	color: #c1c1c1;
+	color: #7f898a;
 	margin-bottom: 20px;
 }
 .prev-link, .next-link {

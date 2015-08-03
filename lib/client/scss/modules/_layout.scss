@@ -1,6 +1,6 @@
 body{
     background: #fff;
-    color: #6C6C6C;
+    color: #3d4c51;
     font-size: 14px;
 }
 
@@ -52,10 +52,10 @@ body{
           position: relative;
         }
         .post-thumbnail {
-          margin: 0 0 0 10px;
-          float: right;
-          width: 100px;
-          height: 100px;
+          margin: 0 0 0 0;
+          float: left;
+          width: 120px;
+          height: 80px;
           overflow: hidden;
         }
         .post-thumbnail-link {
@@ -67,9 +67,9 @@ body{
           width: 165%;
           margin-left: -45px;
         }
-        .post-heading .post-title {
-          font-size: 18px;
-          font-weight: 700;
+        .post-title {
+          font-size: 14px;
+          font-weight: 400;
         }
         .post-meta-item {
           font-size: 13px;
@@ -95,7 +95,7 @@ body{
           align-items: center;
         }
         .post-title {
-          color: #21242b;
+            color: #3d4c51;
         }
         .post-text {
           display: none;
