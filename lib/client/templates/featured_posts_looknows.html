@@ -1,8 +1,10 @@
 <template name="featured_posts_looknows">
-    <div class="widget-header">Featured Posts</div>
-    {{#each featured}}
-    <div class="post {{#if sticky}}sticky{{/if}} {{#unless thumbnailUrl}}thumbnail-empty{{/unless}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
-      {{> modules zone="featuredComponents" moduleClass="post-module"}}
+    <div class="widget">
+        <div class="widget-header">Featured Posts</div>
+        {{#each featured}}
+        <div class="post {{#if sticky}}sticky{{/if}} {{#unless thumbnailUrl}}thumbnail-empty{{/unless}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
+          {{> modules zone="featuredComponents" moduleClass="post-module"}}
+        </div>
+        {{/each}}
     </div>
-    {{/each}}
 </template>
