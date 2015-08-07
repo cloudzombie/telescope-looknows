@@ -1,9 +1,14 @@
 <template name="post_vote_looknows">
   <div class="post-voted {{actionsClass}}">
-    <span class="upvote-link voted action" title="{{_ "upvoted"}}">
-      {{{icon "voted" "icon-circle"}}}
-      <span class="sr-only">{{_ "voted"}}</span>
-    </span>
-    <span class="points">{{baseScore}}</span>
+    <div class="vote-action">
+        <span class="upvote-link voted action" title="{{_ "upvoted"}}">
+          {{{icon "voted" "icon-circle"}}}
+          <span class="sr-only">{{_ "voted"}}</span>
+        </span>
+    </div>
+    <div class="vote-info">
+      <span class="points">{{shortScore}}</span>
+      <span class="points-action">points</span>
+    </div>
   </div>
 </template>

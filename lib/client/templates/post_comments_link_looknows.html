@@ -1,9 +1,13 @@
 <template name="post_comments_link_looknows">
   <div class="post-meta-item">
     <a class="comments-link" href="{{pathFor 'post_page'}}">
-    <i class="material-icon-forum"></i>
-      <span class="comments-count">{{commentCount}}</span>
-      <span class="comments-action">{{_ 'comments_'}}</span>
+      <div class="comments-icon">
+          <i class="material-icon-forum"></i>
+      </div>
+      <div class="comments-info">
+          <span class="comments-count">{{commentCount}}</span>
+          <span class="comments-action">{{_ 'comments_'}}</span>
+      </div>
     </a>
   </div>
 </template>

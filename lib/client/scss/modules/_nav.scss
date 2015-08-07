@@ -1,7 +1,6 @@
 .top-nav {
     .header {
         height: 120px;
-        font-family: "Droid Serif", Georgia, Serif;
         padding: 0;
         @include small {
             padding: 0;
@@ -15,12 +14,13 @@
         .menu-description {
             display: none;
         }
-        color: #5c5c5c;
-        border-bottom: 1px solid #ececec;
+        color: #7d7d7d;
+        font-weight: 400;
+        font-family: "PtSansPro-Demi","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         background-color: #fff;
         margin-bottom: 0;
         .header-submodule {
-            color: #5c5c5c;
+            color: #7d7d7d;
             &:hover {
                 color: #fff;
             }
@@ -31,6 +31,7 @@
             margin: 0 auto;
             padding-right: 15px;
             padding-left: 15px;
+            border-bottom: 1px solid #e9e9e9;
             @include small {
                 height: 60px;
             }
@@ -38,7 +39,7 @@
         .primary-nav {
             text-transform: capitalize;
             letter-spacing: 0.8px;
-            font-size: 14px;
+            font-size: 15px;
         }
         .menu-dropdown .menu-menu {
             font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -55,8 +56,10 @@
                 background: #d84b1e;
                 color: #fff;
                 border-radius: 4px;
+                font-family: "PtSansPro-bold","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
                 padding: 10px 20px;
-                font-size: 13px;
+                font-size: 14px;
+                font-weight: 400;
                 border: none;
             }
         }
@@ -69,7 +72,7 @@
             color: rgba(255, 255, 255, 0.5);
         }
         .menu-item a {
-            font-size: 13px;
+            font-size: 15px;
             letter-spacing: 0;
         }
         .header-submodule:nth-child(2) {

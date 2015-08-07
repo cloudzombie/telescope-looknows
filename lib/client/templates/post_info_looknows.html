@@ -5,4 +5,7 @@
 	  {{/if}}
     {{#if postedAt}}<span class="post-time"> {{timeAgo postedAt}}</span>{{/if}} &middot;
   </div>
+  <div class="post-meta-item post-vote">
+  {{> post_vote}}
+  </div>
 </template>
