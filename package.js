@@ -89,6 +89,9 @@ Package.onUse(function (api) {
       'lib/client/templates/featured_posts_looknows.js',
       'lib/client/templates/featured_post_content_looknows.html',
 
+      'lib/client/templates/categories_looknows.html',
+      'lib/client/templates/categories_looknows.js',
+
       // customizations
       'lib/client/scripts/post_title_looknows.js',
       'lib/client/scripts/icons_looknows.js',

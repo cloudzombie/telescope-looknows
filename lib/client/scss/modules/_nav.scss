@@ -1,6 +1,6 @@
 .top-nav {
     .header {
-        height: 120px;
+        height: 100px;
         padding: 0;
         @include small {
             padding: 0;
@@ -18,16 +18,21 @@
         font-weight: 400;
         font-family: "PtSansPro-Demi","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
         background-color: #fff;
-        margin-bottom: 0;
+        margin-bottom:20px;
         .header-submodule {
             color: #7d7d7d;
             &:hover {
                 color: #fff;
             }
+            i {
+                &:before {
+                    font-size: 20px;
+                }
+            }
         }
         .header-row {
             max-width: 1320px;
-            height: 120px;
+            height: 100px;
             margin: 0 auto;
             padding-right: 15px;
             padding-left: 15px;
@@ -53,7 +58,7 @@
             text-transform: capitalize;
             font-size: 14px;
             .btn.btn-primary, .btn.submit {
-                background: #d84b1e;
+                background: #f44336;
                 color: #fff;
                 border-radius: 4px;
                 font-family: "PtSansPro-bold","lato","Helvetica Neue",Helvetica,Arial,sans-serif;

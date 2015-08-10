@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'looknows';
-	src:url('fonts/looknows/looknows.eot?r5ookr');
-	src:url('fonts/looknows/looknows.eot?#iefixr5ookr') format('embedded-opentype'),
-		url('fonts/looknows/looknows.ttf?r5ookr') format('truetype'),
-		url('fonts/looknows/looknows.woff?r5ookr') format('woff'),
-		url('fonts/looknows/looknows.svg?r5ookr#looknows') format('svg');
+	src:url('fonts/looknows/looknows.eot?-goqldq');
+	src:url('fonts/looknows/looknows.eot?#iefix-goqldq') format('embedded-opentype'),
+		url('fonts/looknows/looknows.ttf?-goqldq') format('truetype'),
+		url('fonts/looknows/looknows.woff?-goqldq') format('woff'),
+		url('fonts/looknows/looknows.svg?-goqldq#looknows') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -22,8 +22,6 @@
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
-
-
 
 .icon-arrow-bold-down:before {
 	content: "\c600";
@@ -52,126 +50,135 @@
 .icon-bookmark:before {
 	content: "\c608";
 }
-.icon-controller-play:before {
+.icon-chevron-down:before {
 	content: "\c609";
 }
-.icon-dots-three-horizontal:before {
+.icon-chevron-left:before {
 	content: "\c60a";
 }
-.icon-open-book:before {
+.icon-chevron-right:before {
 	content: "\c60b";
 }
-.icon-triangle-down:before {
+.icon-chevron-up:before {
 	content: "\c60c";
 }
-.icon-triangle-left:before {
+.icon-controller-play:before {
 	content: "\c60d";
 }
-.icon-triangle-right:before {
+.icon-open-book:before {
 	content: "\c60e";
 }
-.icon-triangle-up:before {
+.icon-triangle-down:before {
 	content: "\c60f";
 }
-.icon-add-user:before {
+.icon-triangle-left:before {
 	content: "\c610";
 }
-.icon-check:before {
+.icon-triangle-right:before {
 	content: "\c611";
 }
-.icon-cross:before {
+.icon-triangle-up:before {
 	content: "\c612";
 }
-.icon-eye:before {
+.icon-add-user:before {
 	content: "\c613";
 }
-.icon-heart-outlined:before {
+.icon-check:before {
 	content: "\c614";
 }
-.icon-heart:before {
+.icon-cross:before {
 	content: "\c615";
 }
-.icon-infinity:before {
+.icon-eye:before {
 	content: "\c616";
 }
-.icon-link:before {
+.icon-heart-outlined:before {
 	content: "\c617";
 }
-.icon-magnifying-glass:before {
+.icon-heart:before {
 	content: "\c618";
 }
-.icon-menu:before {
+.icon-infinity:before {
 	content: "\c619";
 }
-.icon-message:before {
+.icon-link:before {
 	content: "\c61a";
 }
-.icon-new-message:before {
+.icon-magnifying-glass:before {
 	content: "\c61b";
 }
-.icon-pencil:before {
+.icon-menu:before {
 	content: "\c61c";
 }
-.icon-pin:before {
+.icon-message:before {
 	content: "\c61d";
 }
-.icon-plus:before {
+.icon-new-message:before {
 	content: "\c61e";
 }
-.icon-price-ribbon:before {
+.icon-pencil:before {
 	content: "\c61f";
 }
-.icon-rss:before {
+.icon-pin:before {
 	content: "\c620";
 }
-.icon-share:before {
+.icon-plus:before {
 	content: "\c621";
 }
-.icon-thumbs-down:before {
+.icon-price-ribbon:before {
 	content: "\c622";
 }
-.icon-thumbs-up:before {
+.icon-rss:before {
 	content: "\c623";
 }
-.icon-user:before {
+.icon-share:before {
 	content: "\c624";
 }
-.icon-users:before {
+.icon-thumbs-down:before {
 	content: "\c625";
 }
-.icon-vk-with-circle:before {
+.icon-thumbs-up:before {
 	content: "\c626";
 }
-.icon-vk:before {
+.icon-user:before {
 	content: "\c627";
 }
-.icon-facebook-with-circle:before {
+.icon-users:before {
 	content: "\c628";
 }
-.icon-facebook:before {
+.icon-vk-with-circle:before {
 	content: "\c629";
 }
-.icon-google-with-circle:before {
+.icon-vk:before {
 	content: "\c62a";
 }
-.icon-google:before {
+.icon-facebook-with-circle:before {
 	content: "\c62b";
 }
-.icon-instagram-with-circle:before {
+.icon-facebook:before {
 	content: "\c62c";
 }
-.icon-instagram:before {
+.icon-google-with-circle:before {
 	content: "\c62d";
 }
-.icon-pinterest-with-circle:before {
+.icon-google:before {
 	content: "\c62e";
 }
-.icon-pinterest:before {
+.icon-instagram-with-circle:before {
 	content: "\c62f";
 }
-.icon-twitter-with-circle:before {
+.icon-instagram:before {
 	content: "\c630";
 }
-.icon-twitter:before {
+.icon-pinterest-with-circle:before {
 	content: "\c631";
+}
+.icon-pinterest:before {
+	content: "\c632";
+}
+.icon-twitter-with-circle:before {
+	content: "\c633";
+}
+.icon-twitter:before {
+	content: "\c634";
 }
