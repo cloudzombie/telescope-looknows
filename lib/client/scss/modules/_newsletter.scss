@@ -1,63 +1,32 @@
 .newsletter-banner {
 	border: none;
 	background: #fff;
+    border: 1px solid #e9e9e9;
+    padding: 30px !important;
 	.newsletter-button {
-		background: #41B7D8;
+		background: #C45590;
 		color: #FFF;
-        border-radius: 0;
-		font-weight: 600;
+        margin-top: 20px;
+        border-radius: 4px;
+		font-weight: 400;
 		border: none;
-		font-size: 15px;
+		font-size: 14px;
 	}
+    .newsletter-dismiss {
+        top: 15%;
+        right: 4%;
+    }
 	.newsletter-email {
 		border: 1px solid #F0F0F0;
-		color: #B6B6B6;
-	}
-	.newsletter-dismiss {
-		background: transparent;
-        height: 34px;
-        width: 34px;
-        display: block;
-        overflow: auto;
-        stroke: #ccc;
-        cursor: pointer;
-        -webkit-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-        -moz-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-        -o-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-        transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-        .circle {
-        	opacity: 0.05;
-        }
-        .progress {
-            stroke-dasharray: 1, 120;
-            opacity: 0;
-        }
-        &:hover {
-        	opacity: 1;
-        	-webkit-transition:0.5s;
-            -moz-transition:0.5s;
-            -o-transition:0.5s;
-            transition:0.5s;
-            .progress {
-            	opacity: 1;
-                stroke-dasharray:100,120;
-                -webkit-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-                -moz-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-                -o-transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-                transition:0.5s cubic-bezier(0.165, 0.775, 0.145, 1.020);
-            }
-        }
-        &:active {
-        	.progress {
-        	    stroke-dasharray:120,120;
-            }
-        }
+		color: #929292;
+        margin-top: 13px;
 	}
 	.newsletter-tagline {
 		margin-right: 10px;
 		font-weight: 400;
-        color: #999;
-        font-size: 15px;
+        font-family: "PtSerifPro-demi",serif;
+        color: #222;
+        font-size: 16px;
 	}
     &:hover {
         .newsletter-tagleine {

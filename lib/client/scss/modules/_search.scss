@@ -17,10 +17,10 @@
     pointer-events: none;
     @include small {
       left: 7px;
-      top: 3px;
+      top: 2px;
     }
     &:before {
-      font-size: 16px;
+      font-size: 20px;
       color: #5c5c5c !important;
     }
   }

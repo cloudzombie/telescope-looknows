@@ -1,4 +1,5 @@
 <template name="featured_posts_looknows">
+{{#if hasFeatured}}
     <div class="widget">
         <div class="widget-header">Trending</div>
         {{#each featured}}
@@ -7,4 +8,5 @@
         </div>
         {{/each}}
     </div>
+{{/if}}
 </template>
