@@ -74,6 +74,7 @@ Package.onUse(function (api) {
       'lib/client/templates/submit_button_looknows.html',
       'lib/client/templates/post_title_looknows.html',
       'lib/client/templates/post_thumbnail_looknows.html',
+      'lib/client/templates/post_thumbnail_looknows.js',
       'lib/client/templates/post_body_looknows.html',
       'lib/client/templates/post_body_looknows.js',
       'lib/client/templates/post_comments_link_looknows.html',

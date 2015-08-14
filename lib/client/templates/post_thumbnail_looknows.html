@@ -1,8 +1,8 @@
 <template name="post_thumbnail_looknows">
-  {{#if thumbnailUrl}}
+  {{#if hasThumbnail}}
     <div class="post-thumbnail" aria-hidden="true">
       <a class="post-thumbnail-link" href="{{pathFor 'post_page'}}" target="{{target}}">
-        <img class="post-thumbnail-image" src="{{thumbnailUrl}}" onerror="this.style.display='none';" aria-hidden="true"/>
+        <img class="post-thumbnail-image" src="{{Thumbnail}}" onerror="this.style.display='none';" aria-hidden="true"/>
       </a>
     </div>
   {{else}}

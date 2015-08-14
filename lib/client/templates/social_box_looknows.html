@@ -1,0 +1,35 @@
+<template name="social_box_looknows">
+
+<div id="social-box" class="widget {{#if showSocialBox}}show{{/if}}">
+
+{{#if userLog}}
+ <span class="social-box-dismiss banner-dismiss">
+  <i class="icon-cross"></i>
+</span> 
+{{/if}}
+
+    <div class="widget-content">
+    <div class="social-buttons">
+        <div class="button facebook">
+          <a href="https://www.facebook.com/boredpanda" target="_blank"><i class="icon-facebook-with-circle"></i></a>
+          <div class="social-widget">
+         <div class="fb-like" data-href="https://facebook.com/knowslook" data-layout="button" data-action="like" data-show-faces="true" data-share="false"></div>
+          </div>
+        </div>
+        <div class="button pinterest">
+          <a href="http://www.pinterest.com/boredpanda/" target="_blank"><i class="icon-pinterest-with-circle"></i></a>
+          <div class="social-widget">
+<a data-pin-do="buttonFollow" href="http://ru.pinterest.com/looknows/">Follow</a>
+          </div>
+        </div>
+        <div class="button twitter">
+          <a href="https://twitter.com/boredpanda" target="_blank"><i class="icon-twitter-with-circle"></i></a>
+          <div class="social-widget">
+<a href="https://twitter.com/looknows" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @looknows</a>
+          </div>
+        </div>
+     </div>
+    </div>
+</div>
+
+</template>
