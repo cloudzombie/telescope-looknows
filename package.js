@@ -18,7 +18,8 @@ Package.onUse(function (api) {
 
   api.addFiles([
       'lib/modules_looknows.js',
-      'lib/helpers_looknows.js'
+      'lib/helpers_looknows.js',
+      'lib/custom_fields_looknows.js'
   ], ['client', 'server']);
 
   api.addFiles([
