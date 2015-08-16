@@ -88,6 +88,7 @@ Package.onUse(function (api) {
       'lib/client/templates/post_share_looknows.html',
       'lib/client/templates/post_share_looknows.js',
       'lib/client/templates/sponsor_looknows.html',
+      'lib/client/templates/sponsor_looknows.js',
       'lib/client/templates/featured_posts_looknows.html',
       'lib/client/templates/featured_posts_looknows.js',
       'lib/client/templates/featured_post_content_looknows.html',

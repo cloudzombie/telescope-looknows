@@ -1,6 +1,6 @@
 <template name="categories_looknows">
 <div id="categories-menu" class="menu-accordion widget menu-show-more">
-    <div class="widget-header">Featured Tags</div>
+    <div class="widget-header">{{title}}</div>
     <div class="widget-content">
         {{#each categories}}
           <a href="{{categoryLink}}" class="post-category category-{{slug}}">{{name}}</a>

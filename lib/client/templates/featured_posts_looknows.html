@@ -1,7 +1,7 @@
 <template name="featured_posts_looknows">
 {{#if hasFeatured}}
     <div class="widget">
-        <div class="widget-header">Trending</div>
+        <div class="widget-header">{{title}}</div>
         {{#each featured}}
         <div class="post {{#if sticky}}sticky{{/if}} {{#unless thumbnailUrl}}thumbnail-empty{{/unless}} {{inactiveClass}} {{postClass}}" id="{{_id}}">
           {{> modules zone="featuredComponents" moduleClass="post-module"}}
