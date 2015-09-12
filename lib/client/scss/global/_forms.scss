@@ -1,13 +1,13 @@
 input[type="submit"], button, .button, .btn{
   &.btn-primary, &.submit{
     border: 2px solid black;
-    background-color: #C45590;
+    background-color: #A8538A;
     color: #fff;
-    border: 1px solid #C45590;
+    border: 1px solid #A8538A;
     font-size: 15px;
     border-radius: 4px;
-    font-weight: 400;
-    font-family: "PtSansPro-Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: bold;
+    font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
     /*text-transform: uppercase;
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;*/
     &:hover {

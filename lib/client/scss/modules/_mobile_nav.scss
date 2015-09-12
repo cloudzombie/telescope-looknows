@@ -3,6 +3,21 @@
     text-transform: capitalize;
     font-size: 13px;
   }
+  .menu-label {
+    font-size: 14px;
+  }
+  .search .search-field {
+    padding-left: 25px !important;
+  }
+  .search i {
+    left: 15px;
+    top: 11px !important;
+  }
+}
+
+.mobile-menu-button {
+  font-size: 30px;
+  margin-top: -30px;
 }
 
 .mobile-menu{
@@ -14,8 +29,5 @@
     font-size: 12px;
   }
   .btn.btn-primary, .btn.submit {
-    background: transparent;
-    text-transform: uppercase;
-    border: 2px solid white;
   }
 }

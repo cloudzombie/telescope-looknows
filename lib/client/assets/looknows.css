@@ -1,10 +1,10 @@
 @font-face {
 	font-family: 'looknows';
-	src:url('fonts/looknows/looknows.eot?-goqldq');
-	src:url('fonts/looknows/looknows.eot?#iefix-goqldq') format('embedded-opentype'),
-		url('fonts/looknows/looknows.ttf?-goqldq') format('truetype'),
-		url('fonts/looknows/looknows.woff?-goqldq') format('woff'),
-		url('fonts/looknows/looknows.svg?-goqldq#looknows') format('svg');
+	src:url('fonts/looknows/looknows.eot?kiitks');
+	src:url('fonts/looknows/looknows.eot?#iefixkiitks') format('embedded-opentype'),
+		url('fonts/looknows/looknows.ttf?kiitks') format('truetype'),
+		url('fonts/looknows/looknows.woff?kiitks') format('woff'),
+		url('fonts/looknows/looknows.svg?kiitks#looknows') format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -146,39 +146,54 @@
 .icon-users:before {
 	content: "\c628";
 }
-.icon-vk-with-circle:before {
+.icon-vk-alternitive:before {
 	content: "\c629";
 }
-.icon-vk:before {
+.icon-vk-with-circle:before {
 	content: "\c62a";
 }
-.icon-facebook-with-circle:before {
+.icon-vk:before {
 	content: "\c62b";
 }
-.icon-facebook:before {
+.icon-facebook-with-circle:before {
 	content: "\c62c";
 }
-.icon-google-with-circle:before {
+.icon-facebook:before {
 	content: "\c62d";
 }
-.icon-google:before {
+.icon-google-with-circle:before {
 	content: "\c62e";
 }
-.icon-instagram-with-circle:before {
+.icon-google:before {
 	content: "\c62f";
 }
-.icon-instagram:before {
+.icon-instagram-with-circle:before {
 	content: "\c630";
 }
-.icon-pinterest-with-circle:before {
+.icon-instagram:before {
 	content: "\c631";
 }
-.icon-pinterest:before {
+.icon-linkedin-with-circle:before {
 	content: "\c632";
 }
-.icon-twitter-with-circle:before {
+.icon-linkedin:before {
 	content: "\c633";
 }
-.icon-twitter:before {
+.icon-pinterest-with-circle:before {
 	content: "\c634";
+}
+.icon-pinterest:before {
+	content: "\c635";
+}
+.icon-tumblr-with-circle:before {
+	content: "\c636";
+}
+.icon-tumblr:before {
+	content: "\c637";
+}
+.icon-twitter-with-circle:before {
+	content: "\c638";
+}
+.icon-twitter:before {
+	content: "\c639";
 }

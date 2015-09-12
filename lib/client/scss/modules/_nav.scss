@@ -8,21 +8,37 @@
         }
         .header-module {
             .account-link {
-                font-weight: 400;
+                font-weight: 500;
+            }
+            .account-link.sign-in {
+                background: #A8538A;
+                color: #fff;
+                border-radius: 4px;
+                font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                padding: 8px 22px;
+                font-size: 14px;
+                font-weight: bold;
+                border: none;
+            }
+            .account-link.sign-up {
+                font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                border: 1px solid #EAEBED;
+                padding: 8px 22px;
+                border-radius: 4px;
             }
         }
         .menu-description {
             display: none;
         }
-        color: #7d7d7d;
-        font-weight: 400;
-        font-family: "PtSansPro-Demi","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        color: #333;
+        font-weight: 500;
+        font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
         background-color: #fff;
         margin-bottom:20px;
         .header-submodule {
-            color: #7d7d7d;
+            color: #333;
             &:hover {
-                color: #222;
+                color: #2A2A2A;
             }
             i {
                 &:before {
@@ -35,8 +51,9 @@
             height: 100px;
             margin: 0 auto;
             padding-right: 15px;
+            position: relative;
             padding-left: 15px;
-            border-bottom: 1px solid #e9e9e9;
+            border-bottom: 1px solid #EAEBED;
             @include small {
                 height: 60px;
             }
@@ -57,28 +74,36 @@
             text-transform: capitalize;
             font-size: 14px;
             .btn.btn-primary, .btn.submit {
-                background: #C45590;
+                background: #A8538A;
                 color: #fff;
                 border-radius: 4px;
-                font-family: "PtSansPro-bold","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-                padding: 10px 20px;
+                font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+                padding: 10px 25px;
                 font-size: 14px;
-                font-weight: 400;
+                font-weight: bold;
                 border: none;
+            }
+        }
+        .item-admin {
+            .menu-label {
+                &:after {
+                    content: "" !important;
+                } 
             }
         }
         .menu-item {
             &:hover {
-                background: #d84b1e !important;
+                background: #A8538A !important;
             }
         }
         .menu-item:hover a {
-            color: rgba(255, 255, 255, 0.5);
+            color: rgba(255, 255, 255, 0.9);
+            background: #A8538A;
         }
         .menu-item a {
             font-size: 14px;
-            font-family: "PtSansPro-Demi","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-            font-size: 400;
+            font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+            font-weight: 500;
             letter-spacing: 0;
         }
         .header-submodule:nth-child(2) {
@@ -87,19 +112,18 @@
             }
         }
         .logo {
-            letter-spacing: 8px;
-            text-transform: uppercase;
+            position: relative;
+            float: left;
+            text-transform: none;
             @include medium-large {
             }
             a {
-                color: #000;
-                font-size: 0;
-                background: url('http://i.imgur.com/0btHs2g.png');
+                color: #2A2A2A;
+                font-size: 24px;
+                font-family: "PT Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
                 margin: 0 auto;
                 background-repeat: no-repeat;
                 display: block;
-                height: 89px;
-                width: 192px;
                 background-size: 100%;
             }
         }

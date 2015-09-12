@@ -1,3 +1,35 @@
+
+// ------------------------------------ no-login ------------------------------------ //
+
+.no-login {
+	.posts-grid {
+	    .post {
+	        .post-vote {
+	    	    position: relative;
+	    	   .post-voted {
+	    	   	display: inline-block;
+	    	   	.vote-action {
+	    	   	    display: inherit;
+                       .upvote-link {
+	    	               color: #fff !important;
+	    	               border: 0;
+                           background: #51ba60;
+                           i {
+                           	    &:before {
+                           	        color: #FFF;
+                           	        line-height: 30px;
+                    			    font-size: 20px;
+                           	    }
+                           }
+                       }
+                   }
+               }
+           }
+	    }
+    }
+}
+
+
 // ------------------------------------ post ------------------------------------ //
 
 .post-list-title, .page-title{
@@ -11,10 +43,9 @@
 // ------------------------------------ posts views nav ------------------------------------ //
 .posts-list-views{
 	background: transparent;
-	margin: 0 0px 20px;
-	padding-bottom: 0;
-	padding-left: 0;
-	border-bottom: 1px solid #e9e9e9;
+	margin: 0;
+	margin-left: 40px;
+	padding: 0;
 	.menu-top-level{
 		font-size: 12px;
 		display: none;
@@ -23,17 +54,17 @@
 	.menu-item{
 		text-transform: none;
 		margin-right: 0;
-		padding-bottom: 20px;
-		margin-right: 30px;
+		padding: 0 5px;
+        margin: 0px 5px;
+		font-size: 16px !important;
 		@include small {
-			margin-right: 25px;
 		    &:nth-child(4) {
 		    	display: none;
 		    }
 	    }
 		a {
-			font-size: 16px;
-			font-weight: 400 !important;
+			font-size: 16px !important;
+			font-weight: 500 !important;
 			color: #929292;
 			&:hover {
 				color: #434343;
@@ -43,8 +74,7 @@
 	.item-active {
 		background: transparent;
 		&:after {
-			border-bottom: 2px solid #41B7D8 !important;
-			opacity: 1 !important;
+			border: 0 !important;
 		}
 		a {
 			color: #434343;
@@ -57,17 +87,6 @@
     	.menu-item:first-child {
     		position: relative;
     		background: transparent;
-    		&:after {
-    			border-bottom: 2px solid #41B7D8 !important;
-    			opacity: 1 !important;
-    			content: " ";
-                display: block;
-                position: absolute;
-                width: 100%;
-                height: 0px;
-                left: 0px;
-                bottom: 0px;
-    		}
     		a {
     			color: #434343;
     		}	
@@ -93,7 +112,7 @@
 		border-radius: 0;
 		border: 0;
 		padding: 0;
-		border-bottom: 1px solid #e9e9e9;
+		border-bottom: 1px solid #EAEBED;
         background: #fff;
         margin-right: 2%;
         margin-bottom: 20px;
@@ -111,6 +130,9 @@
 	    }
 		&:after {
 			border-bottom: none;
+		}
+		.post-thumbnail, .post-thumbnail-image {
+			border-radius: 3px;
 		}
 	}
 	.post-content {
@@ -200,12 +222,14 @@
                 .points {
                     display: block;
 	    	        color: #929292;
-	    	        font-family: "PtSansPro-Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    	        font-weight: bold;
+	    	        font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
                 }
                 .points-action {
                     display: block;
 	    	        color: #b6b6b6;
-	    	        font-family: "PtSansPro-Demi","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    	        font-weight: 500;
+	    	        font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
                 }
             }
         }      
@@ -243,20 +267,20 @@
 		margin-top: 5px;
 	}
 	.post-title {
-		color: #222;
+		color: #2A2A2A;
 		display: block;
-		font-family: 'PtSerifPro-Bold', serif;
-		font-weight: 400;
+		font-family: 'PT Serif', serif;
+		font-weight: bold;
 		margin-top: 5px;
 		@include small {
 			font-size: 18px;
 		}
 		@include medium-large {
 			font-size: 20px;
-			font-weight: 400;
+			font-weight: bold;
 		}
 		&:visited {
-			color: #222;
+			color: #2A2A2A;
 		}
 	}
 	.post-domain {
@@ -334,22 +358,25 @@
 
 // -------------------------------- post tags --------------------------------- //
 .post-category {
-	font-size: 12px;
-	text-transform: uppercase;
-	font-weight: 400 !important;
-	background: #F0A868;
-	font-family: "PtSansPro-Demi","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
-	color: #fff !important;
+	font-size: 14px;
+	font-weight: 500 !important;
+	background: transparent;
+	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+	color: #A8538A !important;
 	border-radius: 0px;
-	letter-spacing: 0.01em;
-	padding: 2px 4px;
+	padding: 1px 4px;
+	border: 1px solid #f2f2f2;
+	text-transform: none;
 	margin: 2px 0px;
 	a {
-		color: #fff;
+		color: #A8538A !important;
+	}
+	&:before {
+		content: "#";
 	}
 	&:hover {
-		background: #b71c1c;
-		color: #fff;
+		background: transparent;
+		color: #A8538A !important;
 	}
 	@include small {
 	}
@@ -446,16 +473,17 @@
 
 
 .widget {
-	border-bottom: 1px solid #e9e9e9;
+	border-bottom: 1px solid #EAEBED;
 	position: relative;
+	margin-bottom: 15px;
 	.widget-header {
 	    padding-top: 15px;
         padding-bottom: 15px;
-        font-family: "PtSerifPro-bold","lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-family: "PT Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         overflow: hidden;
         position: relative;
-        font-weight: 400;
-        color: #222;
+        font-weight: bold;
+        color: #2A2A2A;
         font-size: 18px;
     }
     .widget-content {
@@ -464,7 +492,7 @@
 }
 .widget.menu-show-more {
 	.widget-content {
-		max-height: 80px;
+		max-height: 85px;
 	}
 }
 .widget.menu-show-more.menu-open {
@@ -474,7 +502,6 @@
 }
 .widget.menu-accordion {
     .show-more {
-    	background: #f8f8f8;
     	margin: 10px 0 0;
     	padding: 2px 0;
     	&:hover {
@@ -486,11 +513,13 @@
     	i {
     		&:before {
     			font-size: 26px;
-    			color: #222;
+    			color: #2A2A2A;
     		}
     	}
     }
 }
+
+
 #social-box {
 	display: none;
 	&.show {
@@ -500,7 +529,7 @@
     	display: block;
     	margin: 0 auto 10px;
     	overflow: hidden;
-    	text-align: left;
+    	text-align: center;
     	.button {
     		vertical-align: top;
     		display: inline-block;
@@ -642,12 +671,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c1637', end
 }
 .more-button {
 	margin-bottom: 40px;
-	background: #F8F8F8;
+	background: transparent;
 	font-size: 20px;
 	height: 50px;
+	color: #2A2A2A !important;
 	line-height: 46px;
 	&:hover {
-		background: #F2F2F2;
+		background: transparent;
 	}
 	&:after {
 		font-size: 16px;
@@ -666,11 +696,49 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c1637', end
 		height: 235px !important;
 	}
 }
+.post-tags {
+	margin: 5px 0;
+	a {
+		color: #9EA1A4 !important;
+		background: transparent !important;
+		padding:0 !important;
+		border:0 !important;
+		margin: 0 !important;
+		font-size: 14px;
+        text-transform: none;
+        &:hover {
+        	color: #A8538A;
+        	background: transparent !important;
+        }
+		&:before {
+			content: "#";
+			font-size: 14px;
+		}
+	}
+}
+
 .post-share-buttons {
 	margin-bottom: 15px;
 	a {
-		color: #fff !important;
-		text-align: center;
+		color: #FFF !important;
+        text-align: center;
+        border-radius: 50%;
+        line-height: 40px;
+        font-size: 18px;
+        font-weight: 400 !important;
+        &:hover {
+        	opacity: 0.7;
+        }
+	}
+	.mt-vk {
+		background: #6383A8;
+	}
+	.mt-tumblr {
+        background: #36465D;
+	}
+	.mt-pinterest {
+		cursor: pointer;
+		background: #CC2127;
 	}
 }
 
@@ -709,12 +777,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3c1637', end
 	    .comments-count {
 	    	display: block;
 	    	color: #929292;
-	    	font-family: "PtSansPro-Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    	font-weight: bold;
+	    	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	    }
 	    .comments-action {
 	    	display: block;
 	    	color: #b6b6b6;
-	    	font-family: "PtSansPro-Demi","Helvetica Neue",Helvetica,Arial,sans-serif;
+	    	font-weight: 500;
+	    	font-family: "PT Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
 	    }
 	}
 }

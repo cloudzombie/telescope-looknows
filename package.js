@@ -17,6 +17,7 @@ Package.onUse(function (api) {
     ]);
 
   api.addFiles([
+      'lib/looknows.js',
       'lib/modules_looknows.js',
       'lib/helpers_looknows.js',
       'lib/custom_fields_looknows.js'
@@ -28,7 +29,6 @@ Package.onUse(function (api) {
       'lib/client/main.html',
 
       // images
-      'lib/client/assets/img/logo.png',
 
       // globals
       'lib/client/scss/global/_forms.scss',
@@ -99,8 +99,28 @@ Package.onUse(function (api) {
       'lib/client/templates/social_box_looknows.html',
       'lib/client/templates/social_box_looknows.js',
 
+      // fonts
+      'lib/client/fonts/pt-sans.css',
+      'lib/client/fonts/pt-sans/PTSansPro-Regular.eot',
+      'lib/client/fonts/pt-sans/PTSansPro-Regular.woff',
+      'lib/client/fonts/pt-sans/PTSansPro-Regular.ttf',
+      'lib/client/fonts/pt-sans/PTSerifPro-Bold.eot',
+      'lib/client/fonts/pt-sans/PTSerifPro-Bold.woff',
+      'lib/client/fonts/pt-sans/PTSerifPro-Bold.ttf',
+      'lib/client/fonts/pt-sans/PTSansPro-Demi.eot',
+      'lib/client/fonts/pt-sans/PTSansPro-Demi.woff',
+      'lib/client/fonts/pt-sans/PTSansPro-Demi.ttf',
+      'lib/client/fonts/pt-sans/PTSerifPro-Demi.eot',
+      'lib/client/fonts/pt-sans/PTSerifPro-Demi.woff',
+      'lib/client/fonts/pt-sans/PTSerifPro-Demi.ttf',
+      'lib/client/fonts/pt-sans/PTSansPro-Bold.eot',
+      'lib/client/fonts/pt-sans/PTSansPro-Bold.woff',
+      'lib/client/fonts/pt-sans/PTSansPro-Bold.ttf',
+      'lib/client/fonts/pt-sans/PTSerifPro-Regular.eot',
+      'lib/client/fonts/pt-sans/PTSerifPro-Regular.woff',
+      'lib/client/fonts/pt-sans/PTSerifPro-Regular.ttf',
+
       // customizations
-      'lib/client/scripts/post_title_looknows.js',
       'lib/client/scripts/icons_looknows.js',
       'lib/client/scripts/templates_looknows.js',
 
@@ -118,7 +138,7 @@ Package.onUse(function (api) {
       'lib/client/assets/fonts/looknows/looknows.woff',
 
       //plugins
-      'lib/client/scripts/succinct.js',
+      'lib/client/scripts/fixedblock.js',
       'lib/client/scripts/sdk.js'
 
 

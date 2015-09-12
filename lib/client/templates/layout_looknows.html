@@ -1,13 +1,13 @@
 <template name="layout_looknows">
   {{> css}}
-  <div class="outer-wrapper {{currentPage}} {{navLayout}}">
+  <div class="outer-wrapper {{currentPage}} {{#unless userLog}}no-login{{/unless}} {{navLayout}}">
     {{> mobile_nav}}
     <div class="inner-wrapper template-{{pageName}}">
       {{> nav}}
       <div class="content-wrapper">
       <div class="left-column">
         {{> messages}}
-        {{> modules "hero"}}
+   <!-- {{> modules "hero"}} -->
         {{> yield "adminMenu"}}
         <div class="content">
             {{> yield}}
