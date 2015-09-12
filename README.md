@@ -1,1 +1,1 @@
-# Looknows-Theme
+# Looknows Telescope Template
