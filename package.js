@@ -1,6 +1,6 @@
 Package.describe({
   name: "wpioneer:theme-looknows",
-  summary: "Meteor: Looknows theme package",
+  summary: "Telescope: Looknows theme package",
   version: "0.1.6",
   git: "https://github.com/wpioneer/Looknows.git"
 });
