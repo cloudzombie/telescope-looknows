@@ -1,5 +1,26 @@
-# Looknows Telescope Template
+# Telescope Looknows Theme Package
+
+## Installing
+	curl https://install.meteor.com/ | sh
+	git clone https://github.com/TelescopeJS/Telescope.git
+	cd Telescope
+
+	git checkout tags/v0.21.1
+
+	cd packages
+	git clone https://github.com/wpioneer/telescope-looknows.git
+	cd ..
+
+	meteor add wpioneer:theme-looknows
+	meteor
+
+After installation, visit the settings to change Post Layout option.
+
 ![looknows](http://oi60.tinypic.com/2dt56qt.jpg)
+
+## Update
+
+As of Telescope v0.21.1, Theme will no longer be updated.
 
 ## License
 The MIT license.
